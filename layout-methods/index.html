@@ -202,6 +202,28 @@
           grid-template-columns: repeat(2, 1fr);
         }
       }
+
+      /* Navigation Buttons */
+      .page-nav-buttons {
+        display: flex;
+        justify-content: space-between;
+        margin: 1.5rem 0;
+      }
+
+      .page-nav-btn {
+        background: var(--primary);
+        color: white;
+        padding: 0.75rem 1.5rem;
+        border-radius: 8px;
+        font-weight: 700;
+        text-decoration: none;
+        transition: background 0.2s;
+        font-family: "Space Grotesk", "Montserrat", sans-serif;
+      }
+
+      .page-nav-btn:hover {
+        background: var(--primary-dark);
+      }
     </style>
   </head>
   <body class="lm-page">
@@ -278,6 +300,22 @@
 
     <main class="demo-page">
       <div class="container">
+        <div class="page-nav-buttons">
+          <a href="../pseudo-selectors/" class="page-nav-btn"
+            >← Previous: Pseudo-Class Selectors</a
+          >
+          <a
+            href="#"
+            class="page-nav-btn disabled-link"
+            tabindex="-1"
+            aria-disabled="true"
+            >Next: Flexbox Mastery →<span
+              style="font-size: 0.9em; opacity: 0.7; margin-left: 0.5em"
+              >(Coming Soon)</span
+            ></a
+          >
+        </div>
+
         <div class="page-intro">
           <p>
             There are three main ways to arrange things on a webpage: Flexbox,
