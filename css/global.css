@@ -196,6 +196,46 @@ body {
   padding-top: 70px;
 }
 
+a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: color 0.18s;
+}
+
+a:hover,
+a:focus {
+  color: var(--primary-dark);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+/* Utility: white link for button-like anchors */
+.a-btn,
+.page-nav-btn,
+.a-btn:visited,
+.page-nav-btn:visited {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+.a-btn:hover,
+.page-nav-btn:hover,
+.a-btn:focus,
+.page-nav-btn:focus {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+/* Remove default blue color for all a inside .page-nav-buttons and .page-nav-btn */
+.page-nav-buttons a,
+.page-nav-btn {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
 @media (max-width: 768px) {
   .nav-content {
     padding: 0.75rem 0;
