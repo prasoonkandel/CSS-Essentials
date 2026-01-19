@@ -1,3 +1,19 @@
+/* Remove inline styles from HTML and add here */
+.coming-soon-note {
+  opacity: 0.7;
+  margin-left: 0.5em;
+}
+
+.tip-box-mt {
+  margin-top: 2rem;
+}
+
+/* Disabled nav button for coming soon */
+.next-coming-soon {
+  pointer-events: none;
+  opacity: 0.7;
+  cursor: not-allowed;
+}
 .flex-demo {
   display: flex;
   gap: 18px;
@@ -74,15 +90,6 @@
 }
 
 /* Coming Soon Badge */
-.coming-soon-badge {
-  display: inline-block;
-  background: var(--accent);
-  color: var(--dark);
-  padding: 0.25rem 0.75rem;
-  border-radius: 999px;
-  margin-left: 0.75rem;
-  vertical-align: middle;
-}
 
 /* Warning/Tip Boxes */
 .tip-box {
