@@ -2,6 +2,13 @@
 
 A comprehensive guide and playground for mastering modern CSS, including selectors, layout methods, animations, variables, and more.
 
+<p >
+  <a href="https://css-essentials.prynix.org" target="_blank">
+    <img src="https://img.shields.io/badge/Online Website-00686e?style=for-the-badge&logo=google-chrome&logoColor=white"/>
+  </a>
+</p>
+
+
 ## Project Overview
 
 This project is designed to help web developers of all levels learn and experiment with essential CSS concepts. Each section demonstrates a different aspect of CSS, with live examples and organized code for hands-on learning.
